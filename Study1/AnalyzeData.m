@@ -18,9 +18,9 @@ function AnalyzeData(userID)
         isPlanar = true;
         
     
-        if contains(inFile, 'small')
+        if numel(strfind(inFile, 'small'))
             strokeSize = 0.1;
-        elseif contains(inFile, 'medium')
+        elseif numel(strfind(inFile, 'medium'))
             strokeSize = 0.3;
         else
             strokeSize = 0.6;
@@ -29,11 +29,11 @@ function AnalyzeData(userID)
         
 % strokes in VR are not supposed to be planar
 % while the others are
-        if contains(inFile, 'vr')
+        if numel(strfind(inFile, 'vr'))
             isPlanar = false;
         end
         
-        if contains(inFile, 'circle')
+        if numel(strfind(inFile, 'circle'))
             error(i) = AnalyzeCircle(data, strokeSize, isPlanar);
         else
             error(i) = AnalyzeLine(data, isPlanar);

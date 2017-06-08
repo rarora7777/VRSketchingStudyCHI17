@@ -9,7 +9,7 @@ function CleanData(userID)
     
     for i=1:numel(files)
         inName = files(i).name;
-        if contains(inName, 'clean')
+        if numel(strfind(inName, 'clean'))
             continue;
         end
         

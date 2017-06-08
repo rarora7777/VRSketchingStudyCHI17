@@ -1,6 +1,5 @@
 This repository contains the raw and processed data, as well as the analysis code for the paper:
-
-"Experimnetal Evaluation of Sketching on Surfaces in VR". 2017. Rahul Arora, Rubaiat Habib Kazi, Fraser Anderson, Tovi Grossman, Karan Singh, and George Fitzmaurice. In Proceedings of the 2017 ACM Conference on Human Factors in Computing (CHI '17). DOI: http://dx.doi.org/10.1145/3025453.3025474
+Rahul Arora, Rubaiat Habib Kazi, Fraser Anderson, Tovi Grossman, Karan Singh, and George Fitzmaurice. 2017. Experimental Evaluation of Sketching on Surfaces in VR. In Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems (CHI '17). ACM, New York, NY, USA, 5643-5654. DOI: https://doi.org/10.1145/3025453.3025474 
 
 Please cite the paper if this data or code is useful for your research or other work.
 
@@ -21,7 +20,7 @@ File format for study 2: Each stroke is described in a line.
 <userID> <visualGuidance> <theta> <phi> <surfaceShape> <trialNumber> <overallStrokeNumber> <timeTaken> <meanDepthDeviation> <meanProjectedDeviation> <meanOverallDeviation>
 
 
-If you want to re-generate the analyzed data from the raw data, or measure your own metrics, then keep on reading.
+If you want to re-generate the analyzed data from the raw data, or measure your own metrics, then read on.
 
 
 RAW DATA:
@@ -33,7 +32,7 @@ where <trialNumber> is the trial number for a paricular combination for experime
 
 File format: Each line in the file contains data for a point recorded by the motion capture system in the UVW coordinate system. Each data point consists of seven floating-point numbers: U, V, and W coordinates of the point (in metres), time since the stroke began (in seconds), and UVW coordinates of the back of the pen at the same instant. Note that the paper does not mention the W axis, but it is defined in the usual manner for a right-handed coordinate system: W = U cross V. For the "curved" surface shape in study 2, UVW is a cylindrical coordinate system.
 
-Config files: Each user folder contains a config/ sub-folder, which details the sequence of factor commbinations presented to the user. These sequences are explained in the config_guide.txt file.
+Config files: Each user folder contains a config/ sub-folder, which details the sequence of factor commbinations presented to the user. These sequences are explained in the config_guide file.
 
 
 ANALYSIS CODE:
@@ -59,8 +58,8 @@ CombineAnalyzedData(uidArray);
 
 Running the whole analysis for either study may take about a minute or so. If you have access to the parallel computing toolbox, you can replace the for loop with a parfor loop to speed up the computations. On my dual core (4 thread) computer, this gives me a 3x speed boost with 4 worker threads.
 
-The data for the missing user IDs (7 and 10 in study 1 and 1 in study 2) had to be dropped because of excessive tracking noise.
+The data for the missing user IDs (7 and 10 in study 1 and 1 in study 2) had to be dropped due to excessive tracking noise.
 
-All functions are self documented.
+All functions are self-documented.
 
 The included code was tested on an Intel machine running Windows 10 x64. Tested MATLAB versions are R2015b (MATLAB 8.6) and R2017a (MATLAB 9.2).
