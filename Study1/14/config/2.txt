@@ -1,0 +1,133 @@
+c2
+# plane 1
+p1
+# shape 2
+s2
+t0
+l2
+l1
+l0
+t1
+l1
+l2
+l0
+t2
+l1
+l0
+l2
+# shape 0
+s0
+t0
+l1
+l2
+l0
+t1
+l2
+l0
+l1
+t2
+l1
+l0
+l2
+# shape 1
+s1
+t0
+l1
+l2
+l0
+t1
+l2
+l1
+l0
+t2
+l2
+l0
+l1
+# plane 2
+p2
+# shape 1
+s1
+t0
+l0
+l1
+l2
+t1
+l2
+l0
+l1
+t2
+l2
+l1
+l0
+# shape 2
+s2
+t0
+l0
+l1
+l2
+t1
+l0
+l1
+l2
+t2
+l2
+l1
+l0
+# shape 0
+s0
+t0
+l1
+l0
+l2
+t1
+l1
+l0
+l2
+t2
+l2
+l0
+l1
+# plane 0
+p0
+# shape 2
+s2
+t0
+l1
+l2
+l0
+t1
+l1
+l0
+l2
+t2
+l1
+l0
+l2
+# shape 1
+s1
+t0
+l1
+l2
+l0
+t1
+l2
+l1
+l0
+t2
+l0
+l2
+l1
+# shape 0
+s0
+t0
+l0
+l1
+l2
+t1
+l0
+l2
+l1
+t2
+l0
+l2
+l1
