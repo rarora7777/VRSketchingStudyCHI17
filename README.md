@@ -8,7 +8,7 @@ Please cite the paper if this data or code is useful for your research or other 
 
 ## Usage
 
-The data and code for the first and second experiments are in the folders Study1/ and Study2/, respectively.
+The data and code for the first and second experiments are in the folders `Study1/` and `Study2/`, respectively.
 The next three sections detail the file formats and the usage of the analysis code.
 
 
