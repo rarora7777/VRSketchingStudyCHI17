@@ -6,13 +6,13 @@ Rahul Arora, Rubaiat Habib Kazi, Fraser Anderson, Tovi Grossman, Karan Singh, an
 Please cite the paper if this data or code is useful for your research or other work.
 
 
-## HOW TO USE
+## Usage
 
 The data and code for the first and second experiments are in the folders Study1/ and Study2/, respectively.
 The next three sections detail the file formats and the usage of the analysis code.
 
 
-## ANALYZED DATA
+## Analyzed Data
 
 For both the studies, the `Analysis/` sub-folder contains the analyzed data, containing a file each for each user, and a file `all.txt` which simply concatenates the analyzed data for all the users.
 
@@ -28,7 +28,7 @@ File format for study 2: Each stroke is described in a line.
 If you want to re-generate the analyzed data from the raw data, or measure your own metrics, then read on.
 
 
-## RAW DATA
+## Raw Data
 
 The raw data collected for a user with user-id `<i>` in study `<j>` is stored in the folder `Study<j>/<i>/`, one stroke per file. These filenames are in the format:
 
@@ -48,7 +48,7 @@ Note that the paper does not mention the W axis, but it is defined in the usual 
 These sequences are explained in the `config_guide` file.
 
 
-## ANALYSIS CODE
+## Analysis Code
 
 To perform analysis and generate analyzed data from raw data:
 
