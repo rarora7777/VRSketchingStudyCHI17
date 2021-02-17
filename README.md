@@ -1,7 +1,7 @@
 # VR Sketching Study Data and Analysis Code
 
 This repository contains the raw and processed data, as well as the analysis code for the paper:
-Rahul Arora, Rubaiat Habib Kazi, Fraser Anderson, Tovi Grossman, Karan Singh, and George Fitzmaurice. 2017. Experimental Evaluation of Sketching on Surfaces in VR. In Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems (CHI '17). ACM, New York, NY, USA, 5643-5654. DOI: https://doi.org/10.1145/3025453.3025474
+Rahul Arora, Rubaiat Habib Kazi, Fraser Anderson, Tovi Grossman, Karan Singh, and George Fitzmaurice. 2017. Experimental Evaluation of Sketching on Surfaces in VR. In Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems (CHI '17). ACM, New York, NY, USA, 5643-5654. DOI: https://doi.org/10.1145/3025453.3025474.
 
 Please cite the paper if this data or code is useful for your research or other work.
 
@@ -85,3 +85,20 @@ All functions are self-documented.
 
 The included code was tested on an Intel machine running Windows 10 x64.
 Tested MATLAB versions are R2015b (MATLAB 8.6) and R2017a (MATLAB 9.2).
+
+## BibTeX for citing the paper
+
+```
+@inproceedings{Arora:vrSketching:2017,
+ author = {Arora, Rahul and Kazi, Rubaiat Habib and Anderson, Fraser and Grossman, Tovi and Singh, Karan and Fitzmaurice, George},
+ title = {Experimental Evaluation of Sketching on Surfaces in VR},
+ booktitle = {Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems},
+ series = {CHI '17},
+ year = {2017},
+ location = {Denver, Colorado, USA},
+ DOI = {10.1145/3025453.3025474}
+ numpages = {12},
+ publisher = {ACM},
+ address = {New York, NY, USA}
+}
+```
